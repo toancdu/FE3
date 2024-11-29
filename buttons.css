@@ -33,6 +33,9 @@
   width: 65px;
   margin-right: 16px;
   font-weight: bold;
+  /* add transition */
+  transition: background-color 0.15s ease-in-out,
+  color 0.15s;
 }
 .join-btn:hover{
 background-color:  rgb(3, 3, 194);
@@ -52,7 +55,12 @@ background-color:  rgb(3, 3, 194);
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
-  
+  /* box-shadow:  5px 5px 5px rgb(25, 22, 231); */
+/*   box-shadow:  5px 5px 5px rgb(0,0,0,0.45); */
+transition: box-shadow 0.15s;
+}
+.tweet-btn:hover{
+box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
 }
 .request-btn{
   background-color: black;
