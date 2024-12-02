@@ -78,6 +78,8 @@ transition: box-shadow 0.15s;
 .tweet-btn:hover{
 box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
 }
+
+/* 2a */
 .request-btn{
   background-color: black;
   color: white;
@@ -87,6 +89,8 @@ box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
   cursor: pointer;
   margin-right: 16px;
 }
+
+/* 2b */
 .adtocart-btn{
   background-color:rgb(255, 216, 20);
   color: black;
@@ -99,6 +103,8 @@ box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
   cursor: pointer;
   margin-right: 16px;
 }
+
+/* 2c */
 .signup-btn{
   background-color: rgb(46,164,79);
   color: white;
@@ -109,6 +115,10 @@ box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
   cursor: pointer;
   margin-right: 8px;
   font-weight: bold;
+}
+
+/* 2d */
+.start-download-btn{
 }
 .getstarted-btn{
   background-color: rgb(121,82,179);
@@ -132,6 +142,8 @@ box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
   margin-right: 20px;
   font-weight: bold;
 }
+
+/* 2e */
 .applyon-btn{
   background-color: rgb(10,102,194);
   color: white;
@@ -152,6 +164,8 @@ box-shadow:  5px 5px 5px rgb(0,0,0,0.45);
   cursor: pointer;
   margin-right: 8px;
 }
+
+/* 2f */
 .adtocart-btn2{
 background-color:rgb(255, 216, 20);
   color: black;

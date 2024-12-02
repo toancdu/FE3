@@ -1,0 +1,27 @@
+.vdeo-preview{
+width: 220px;
+display:inline-block;
+margin-right: 2.5px;
+margin-bottom: 0px;
+/* vertical-align: top; adjust ocntainer at to@*/
+}
+p{
+margin: 0px 0px 2px 0px;
+padding: 0px;
+}
+.search-bar{
+margin-bottom: 5px;
+}
+.thumbnail{
+width: 220px;
+
+}
+p.vdeo-content{
+width: 220px;
+}
+p.vdeo-title{
+width: 220px;
+}
+p.vdeo-stats{
+width: 220px;
+}

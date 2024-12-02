@@ -1,0 +1,144 @@
+
+.thumbnail {
+font-size: 30px;
+width: 300px;
+display: block;
+/*  height: 250px;
+  object-fit: contain;
+  object-position:top ;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: red; */
+}
+/* lesson 8 */
+.lesson-8-video-title{
+  width: 300px;
+  font-size: 12px;
+}
+.vdeo-title,
+.vdeo-stats{
+  /* Hiển thị các đối tượng trên cùng một dòng */
+  display: inline-block;
+}
+.vdeo-title{
+
+}
+.vdeo-stats{
+
+}
+/* --------------------------------------- */
+.search-bar {
+font-size: 20px;
+margin-left: 12px;
+}/*# sourceMappingURL=youtube.css.map */
+
+.image1{
+font-size: 20px;
+width: 300px;
+}
+.image2{
+font-size: 20px;
+width: 200px;
+height: 200px;
+object-position:top ;
+border-radius: 20px;
+border-style: solid;
+  /* border-color: red; */
+}
+.image3{
+font-size: 20px;
+width: 300px;
+}
+.image4{
+font-size: 20px;
+width: 200px;
+height: 200px;
+object-position:top ;
+border-radius: 100px;
+border-style: solid;
+/* border-color: red; */
+}
+/* 7d */
+.search-bar1{
+width: 100px;
+font-size: 8px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 4px;
+}
+
+/* 7e */
+.search-bar2{
+width: 180px;
+border-radius: 35px;
+font-size: 8px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 8px;
+border: none;
+/* border: 1px solid rgb(231, 236, 239); */
+margin-bottom: 15px;
+box-shadow: 0px 1px 3px rgb(145, 146, 147);
+transition: box-shadow 0.15s;
+}
+/* 7f */
+.email{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 8px;
+ line-height: 0.5px;
+}
+.email-input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 190px;
+}
+.privacy-policy{
+  width: 250px;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.agree-btn{
+  background-color: rgb(5, 104, 165);
+  color:white;
+  width: 200px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+  font-size:10px ;
+  padding: 6px;
+}
+/* 7g */
+.tweet-post{
+  display: flex;
+  align-items: center;
+  /* vertical-align: middle; */
+}
+.image-tweet{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.tweet-input{
+  border: none;
+  margin-left: 10px;                                                        
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 20px;
+}
+.tweet-btn{
+  background-color: rgb(29, 161, 242);
+  color:white;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
