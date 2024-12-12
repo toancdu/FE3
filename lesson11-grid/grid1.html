@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid</title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body style="height: 1000px;">
+<!-- grid 1 -->
+<div style="display: grid;
+  grid-template-columns: 100px 100px;">
+  <div style="background-color: aquamarine;">div 1</div>
+  <div style="background-color: rgb(148, 127, 255);">div 2 <p>text</p></div>
+</div>
+<!-- grid 2 -->
+<div style="
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 100px 100px 200px;">
+  <div style="background-color: aquamarine;">100px</div>
+  <div style="background-color: rgb(148, 127, 255);">100px<p>text</p></div>
+  <div style="background-color: aquamarine;">200px</div>
+  <div style="background-color: rgb(255, 255, 127);">100px</div>
+</div>
+<!-- grid 3 -->
+<div style="
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 100px 1fr;">
+  <div style="background-color: aquamarine;">100px</div>
+  <div style="background-color: rgb(148, 127, 255);">1fr</div>
+</div>
+<!-- grid 4 -->
+ <div style="
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;">
+  <div style="background-color: aquamarine;">100px</div>
+  <div style="background-color: rgb(148, 127, 255);">1fr</div>
+  <div style="background-color: rgb(255, 127, 214);">1fr</div>
+</div>
+<!-- grid 5 -->
+<div style="
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px; row-gap: 40px;">
+  <div style="background-color: rgb(243, 250, 188); height: 200px;">1fr</div>
+  <div style="background-color: rgb(96, 67, 244); height: 200px;">1fr</div>
+  <div style="background-color: rgb(228, 153, 204); height: 200px;">1fr</div>
+  <div style="background-color: rgb(228, 153, 204); height: 200px;">1fr</div>
+   <div style="background-color: rgb(243, 250, 188); height: 200px;">1fr</div>
+  <div style="background-color: rgb(96, 67, 244); height: 200px;">1fr</div>
+</div>
+</body>
+</html>
