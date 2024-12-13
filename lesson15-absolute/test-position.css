@@ -1,0 +1,55 @@
+body{
+  height: 3000px;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+.header{
+background-color: black;
+color: white;
+/* cố định thanh header */
+position: fixed;
+/*  top: 0; */
+top: 0;  
+/* bottom: 100px; */
+left: 0;
+right: 0;
+width: 100%;
+height: 50px;
+/* add front or hide */
+z-index: 1;
+}
+.sidebar-1{
+background-color: green;
+color: white;
+/* height: 200px;
+width: 200px;   */
+position: fixed;
+left: 0;
+bottom: 0;
+top: 50px;
+width: 72px;
+}
+.absolute{
+position: absolute; 
+background-color: red;
+color: white;
+left: 10px;
+top: 20px;
+right: 0;
+height: 50px;
+width: 50px;
+/* z-index: 2; */
+}
+.div1{
+background-color: aqua;
+height: 200px;
+width: 200px;
+position: static;
+margin-top: 60px;
+}
+.div2{
+background-color: rgb(70, 64, 239);
+height: 200px;
+width: 200px;
+position: relative;
+}
